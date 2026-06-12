@@ -1,1 +1,84 @@
+# Implementation
+
+## Experimental Environment
+
+The evaluation framework was implemented using Python-based data analysis and machine learning workflows.
+
+The implementation process consisted of:
+
+1. Dataset preparation
+2. Privacy transformation
+3. Machine learning evaluation
+4. Performance measurement
+5. Score normalisation
+6. Composite score calculation
+
+---
+
+## k-Anonymity Implementation
+
+The k-Anonymity model was implemented using:
+
+* Generalisation
+* Quantile binning
+* Quasi-identifier transformation
+
+The objective was to ensure that each record became indistinguishable from at least k-1 other records.
+
+---
+
+## Differential Privacy Implementation
+
+Differential Privacy was implemented using:
+
+* Laplace Noise Mechanism
+
+Noise was added to sensitive attributes to reduce disclosure risk while preserving analytical usefulness.
+
+---
+
+## Synthetic Data Generation
+
+Synthetic datasets were generated using:
+
+* Bootstrap Sampling
+
+This approach preserved statistical characteristics while reducing direct exposure of original records.
+
+---
+
+## Machine Learning Pipeline
+
+Each transformed dataset was evaluated using:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* XGBoost
+
+Model performance was compared against the original dataset baseline.
+
+---
+
+## Performance Evaluation
+
+Three dimensions were assessed:
+
+### Privacy
+
+Ability to reduce disclosure and re-identification risk.
+
+### Utility
+
+Ability to maintain predictive performance.
+
+### Computational Efficiency
+
+Execution time and processing requirements.
+
+---
+
+## Composite Ranking
+
+Scores were normalised and combined using weighted aggregation to generate a final ranking of privacy-preserving techniques.
 
