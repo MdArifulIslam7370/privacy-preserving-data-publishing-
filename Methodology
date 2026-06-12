@@ -1,1 +1,85 @@
+# Methodology
+
+## Research Design
+
+This study adopted a comparative evaluation approach to analyse multiple Privacy-Preserving Data Publishing (PPDP) techniques using a unified assessment framework.
+
+The methodology focused on balancing three key objectives:
+
+* Privacy Protection
+* Data Utility
+* Computational Performance
+
+A composite scoring model was developed to support decision-making and technique selection.
+
+---
+
+## Dataset Selection
+
+The Adult Income Dataset from the UCI Machine Learning Repository was selected because it contains demographic and socio-economic information commonly used in privacy-preserving data publishing research.
+
+After preprocessing, the dataset contained 30,162 records suitable for experimentation and machine learning evaluation.
+
+---
+
+## Data Preprocessing
+
+The following preprocessing activities were conducted:
+
+* Missing value handling
+* Data cleaning
+* Feature transformation
+* Categorical encoding
+* Dataset standardisation
+
+---
+
+## Privacy-Preserving Techniques
+
+Three representative techniques were evaluated:
+
+### k-Anonymity
+
+Implemented using generalisation and quantile-based binning to reduce re-identification risk.
+
+### Differential Privacy
+
+Implemented using Laplace noise injection to provide mathematical privacy guarantees.
+
+### Synthetic Data Generation
+
+Implemented using bootstrap-based sampling techniques to generate privacy-preserving synthetic records.
+
+---
+
+## Machine Learning Evaluation
+
+The utility of each privacy-preserved dataset was evaluated using machine learning models:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* XGBoost
+
+Performance metrics were used to determine how well predictive capabilities were preserved after privacy transformation.
+
+---
+
+## Composite Scoring Framework
+
+A weighted scoring model was developed:
+
+Privacy Score = 40%
+
+Utility Score = 40%
+
+Computational Performance = 20%
+
+The final composite score was calculated to provide a balanced evaluation of each privacy-preserving technique.
+
+---
+
+## Decision Support
+
+The final ranking mechanism was designed to assist organisations and researchers in selecting the most suitable privacy-preserving technique based on overall performance.
 
