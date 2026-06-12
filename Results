@@ -1,0 +1,60 @@
+# Results
+
+## Overview
+
+The evaluation framework successfully compared multiple privacy-preserving techniques across privacy, utility, and computational performance dimensions.
+
+---
+
+## Machine Learning Performance
+
+Several machine learning models were evaluated:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* XGBoost
+
+Among these models, XGBoost achieved the strongest predictive performance and was selected as the primary utility evaluation model.
+
+---
+
+## Privacy Evaluation
+
+Each technique demonstrated different strengths:
+
+### k-Anonymity
+
+* Strong privacy protection
+* Moderate utility preservation
+* Good computational efficiency
+
+### Differential Privacy
+
+* Strong mathematical privacy guarantees
+* Utility reduction caused by noise injection
+* Higher impact on prediction accuracy
+
+### Synthetic Data Generation
+
+* High utility preservation
+* Strong privacy protection
+* Balanced computational performance
+
+---
+
+## Composite Score Ranking
+
+Final ranking:
+
+1. Synthetic Data Generation
+2. k-Anonymity
+3. Differential Privacy
+
+---
+
+## Key Finding
+
+Synthetic Data Generation achieved the highest overall performance by balancing privacy protection, utility preservation, and computational efficiency.
+
+The results demonstrate that a multi-dimensional evaluation framework provides a more reliable decision-support mechanism than evaluating privacy or utility in isolation.
