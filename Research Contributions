@@ -1,0 +1,57 @@
+# Research Contributions
+
+## Contribution 1
+
+Developed a comprehensive evaluation framework for Privacy-Preserving Data Publishing (PPDP) techniques.
+
+Unlike traditional approaches, the framework evaluates privacy, utility, and computational performance simultaneously.
+
+---
+
+## Contribution 2
+
+Designed a weighted composite scoring model to support objective comparison between privacy-preserving techniques.
+
+The framework reduces reliance on single-metric evaluations.
+
+---
+
+## Contribution 3
+
+Implemented a decision-support mechanism capable of ranking multiple PPDP approaches using normalised performance indicators.
+
+---
+
+## Contribution 4
+
+Conducted a comparative analysis of:
+
+* k-Anonymity
+* Differential Privacy
+* Synthetic Data Generation
+
+under a common experimental environment.
+
+---
+
+## Contribution 5
+
+Demonstrated practical application using a real-world dataset and machine learning evaluation techniques.
+
+---
+
+## Contribution 6
+
+Provided recommendations for organisations and researchers seeking balanced privacy-preserving solutions that maximise utility while maintaining acceptable privacy protection.
+
+---
+
+## Future Work
+
+Potential future improvements include:
+
+* Deep learning-based synthetic data generation
+* Federated learning integration
+* Advanced privacy metrics
+* Real-time privacy evaluation systems
+* AI-assisted privacy optimisation
